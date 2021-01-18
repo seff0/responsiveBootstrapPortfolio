@@ -1,0 +1,18 @@
+body {
+  background-color: #cad2c5;
+}
+.navbar {
+  background-color: #2f3e46;
+}
+.navbar-brand {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+h1 {
+  padding: 10px 10px 10px 0px;
+}
+img {
+  margin: 20px 20px 20px 10px;
+}
