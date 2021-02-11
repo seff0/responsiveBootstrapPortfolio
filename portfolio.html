@@ -1,44 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seth Hill: Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Seth Hill</a>
-            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Seth Hill</a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <main class="container">
-        <section class="row">
-            <div class="col-lg-8">
-                <h1>Portfolio</h1>
-            </div>
-        </section>
-        <section class="row">
+      <section class="row">
+        <div class="col-lg-8">
+          <h1>Portfolio</h1>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-lg-6">
+          <a href="https://jdouville8.github.io/DUFullStack-Project1/"
+            ><img
+              src="assets/screenshots/project1screen.png"
+              class="float-start screen"
+              alt="Screenshot of Music Locator app"
+          /></a>
+          <p>
+            Summary: This application uses the Last.FM and audioDB APIs to
+            retrieve information about a musical artist.
+            <br />
+            Role: Back end engineer
+            <br />
+            Tools: JavaScript, HTML, CSS, Materialize, jQuery, Google Fonts
+          </p>
+          <a
+            href="https://github.com/Jdouville8/DUFullStack-Project1"
+            class="personal-link"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="col-lg-6">
+          <a href="https://seff0.github.io/openWeatherDashboard/"
+            ><img
+              src="assets/screenshots/weather-dashboard.png"
+              class="float-start screen"
+              alt="Screenshot of weather dashboard app"
+          /></a>
+          <p>
+            Summary: Using openweather API, this application retrieves the
+            current weather as well as a 5 day forecast for a city of the user’s
+            choosing.
+            <br />
+            Role: Sole author
+            <br />
+            Tools: JavaScript, HTML, Bootstrap, jQuery, openweather API
+          </p>
+          <a
+            href="https://github.com/seff0/openWeatherDashboard"
+            class="personal-link"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-lg-6">
+          <a href="https://seff0.github.io/dayPlannerJS/"
+            ><img
+              src="assets/screenshots/dayplanner.PNG"
+              class="float-start screen"
+              alt="Screenshot of day planner app"
+          /></a>
+          <p>
+            Summary: This day planner uses moment.js to dynamically color-code
+            the time blocks based on the current time of day.
+            <br />
+            Role: Sole author
+            <br />
+            Tools: JavaScript, HTML, CSS, moment.js
+          </p>
+          <a
+            href="https://github.com/seff0/dayPlannerJS"
+            class="personal-link"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="col-lg-6">
+          <!-- <a href="https://placeholder.com"
+            ><img
+              src="https://via.placeholder.com/150"
+              class="float-start"
+              alt="Placeholder image"
+          /></a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+            accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus?
+            Accusantium veniam nihil eum exercitationem quisquam dignissimos
+            necessitatibus eligendi sunt reprehenderit illo?
+          </p> -->
+        </div>
+      </section>
+      <!-- <section class="row">
             <div class="col-lg-6">
                 <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="float-start" alt="Placeholder image"></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus? Accusantium veniam nihil eum exercitationem quisquam dignissimos necessitatibus eligendi sunt reprehenderit illo?</p>
@@ -47,31 +145,13 @@
                 <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="float-start" alt="Placeholder image"></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus? Accusantium veniam nihil eum exercitationem quisquam dignissimos necessitatibus eligendi sunt reprehenderit illo?</p>
             </div>
-        </section>
-        <section class="row">
-            <div class="col-lg-6">
-                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="float-start" alt="Placeholder image"></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus? Accusantium veniam nihil eum exercitationem quisquam dignissimos necessitatibus eligendi sunt reprehenderit illo?</p>
-            </div>
-            <div class="col-lg-6">
-                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="float-start" alt="Placeholder image"></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus? Accusantium veniam nihil eum exercitationem quisquam dignissimos necessitatibus eligendi sunt reprehenderit illo?</p>
-            </div>
-        </section>
-        <section class="row">
-            <div class="col-lg-6">
-                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="float-start" alt="Placeholder image"></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus? Accusantium veniam nihil eum exercitationem quisquam dignissimos necessitatibus eligendi sunt reprehenderit illo?</p>
-            </div>
-            <div class="col-lg-6">
-                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="float-start" alt="Placeholder image"></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nihil hic ex repudiandae saepe, nostrum nulla possimus? Accusantium veniam nihil eum exercitationem quisquam dignissimos necessitatibus eligendi sunt reprehenderit illo?</p>
-            </div>
-        </section>
+        </section> -->
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-        </script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
